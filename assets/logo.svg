@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <!-- Royal Gold Gradient -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BF953F" />
+      <stop offset="25%" stop-color="#FCF6BA" />
+      <stop offset="50%" stop-color="#B38728" />
+      <stop offset="75%" stop-color="#FBF5B7" />
+      <stop offset="100%" stop-color="#AA771C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle decoration -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="url(#goldGradient)" stroke-width="1.5" stroke-dasharray="5 3" />
+  <circle cx="100" cy="100" r="90" fill="none" stroke="url(#goldGradient)" stroke-width="1" />
+  
+  <!-- Floral/Ornamental Details at Top -->
+  <path d="M 85 45 C 90 35, 100 30, 100 45 C 100 30, 110 35, 115 45" fill="none" stroke="url(#goldGradient)" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M 100 25 C 100 35, 100 35, 100 45" fill="none" stroke="url(#goldGradient)" stroke-width="1.5" />
+  <circle cx="100" cy="23" r="3" fill="url(#goldGradient)" />
+
+  <!-- Monogram Letters "HC" in Calligraphy Serif style -->
+  <g>
+    <!-- Letter 'H' with Serifs -->
+    <path d="M 52 75 L 68 75 M 60 75 L 60 125 M 52 125 L 68 125" fill="none" stroke="url(#goldGradient)" stroke-width="4.5" stroke-linecap="round" />
+    <path d="M 82 75 L 98 75 M 90 75 L 90 125 M 82 125 L 98 125" fill="none" stroke="url(#goldGradient)" stroke-width="4.5" stroke-linecap="round" />
+    <path d="M 60 100 L 90 100" fill="none" stroke="url(#goldGradient)" stroke-width="4.5" stroke-linecap="round" />
+    
+    <!-- Letter 'C' with Serif -->
+    <path d="M 140 82 C 135 72, 110 72, 110 100 C 110 128, 135 128, 140 118" fill="none" stroke="url(#goldGradient)" stroke-width="4.5" stroke-linecap="round" />
+    <circle cx="140" cy="82" r="3" fill="url(#goldGradient)" />
+  </g>
+
+  <!-- Symmetrical Floral Swirls under Monogram -->
+  <path d="M 50 145 C 75 160, 90 150, 100 145 C 110 150, 125 160, 150 145" fill="none" stroke="url(#goldGradient)" stroke-width="2" stroke-linecap="round" />
+  <path d="M 70 150 C 85 165, 100 155, 100 155 C 100 155, 115 165, 130 150" fill="none" stroke="url(#goldGradient)" stroke-width="1" />
+  <circle cx="100" cy="145" r="4" fill="url(#goldGradient)" />
+
+  <!-- Estd 2026 -->
+  <text x="100" y="172" font-family="'Playfair Display', Georgia, serif" font-size="8" fill="url(#goldGradient)" text-anchor="middle" letter-spacing="2">ESTD 2026</text>
+</svg>
